@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualización 3D en AR</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  </head>
+  <body>
+    <h1>Visualiza el objeto 3D en Realidad Aumentada</h1>
+
+    <!-- Aquí se carga tu objeto 3D -->
+    <model-viewer src="https://drive.google.com/uc?export=download&id=1EcQ9tM-KcjBto09oJ-Rgo6A0r8kiBaRe"
+                  alt="Un objeto en 3D"
+                  ar
+                  ar-modes="scene-viewer webxr"
+                  environment-image="neutral"
+                  auto-rotate
+                  camera-controls>
+    </model-viewer>
+
+    <p>Apunta tu cámara para ver el modelo en AR.</p>
+  </body>
+</html>
