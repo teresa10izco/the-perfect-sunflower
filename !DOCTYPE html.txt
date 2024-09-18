@@ -9,8 +9,8 @@
   <body>
     <h1>Visualiza el objeto 3D en Realidad Aumentada</h1>
 
-    <!-- Aquí se carga tu objeto 3D desde GitHub -->
-    <model-viewer src="./17_9_2024.glb"
+    <!-- Cargar el objeto 3D desde GitHub Pages -->
+    <model-viewer src="https://teresa10izco.github.io/the-perfect-sunflower/17_9_2024.glb"
                   alt="Un objeto en 3D"
                   ar
                   ar-modes="scene-viewer webxr"
