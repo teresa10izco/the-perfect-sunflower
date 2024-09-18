@@ -9,14 +9,15 @@
   <body>
     <h1>Visualiza el objeto 3D en Realidad Aumentada</h1>
 
-    <!-- Aquí se carga tu objeto 3D -->
-    <model-viewer src="https://drive.google.com/uc?export=download&id=1EcQ9tM-KcjBto09oJ-Rgo6A0r8kiBaRe"
+    <!-- Aquí se carga tu objeto 3D desde GitHub -->
+    <model-viewer src="./17_9_2024.glb"
                   alt="Un objeto en 3D"
                   ar
                   ar-modes="scene-viewer webxr"
                   environment-image="neutral"
                   auto-rotate
-                  camera-controls>
+                  camera-controls
+                  style="width: 100%; height: 500px;">
     </model-viewer>
 
     <p>Apunta tu cámara para ver el modelo en AR.</p>
